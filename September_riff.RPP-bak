@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.35/linux-x86_64" 1630669970
+<REAPER_PROJECT 0.1 "6.35/linux-x86_64" 1630673201
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,7 +14,7 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 8
+  CURSOR 1.7
   ZOOM 198.12061739149746 0 0
   VZOOMEX 6 0
   USE_REC_CFG 0
@@ -268,7 +268,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 5088 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -310,7 +310,7 @@
     >
     MAINSEND 0 0
     <FXCHAIN
-      WNDRECT 3552 1285 1218 660
+      WNDRECT 3630 1175 1218 660
       SHOW 1
       LASTSEL 0
       DOCKED 0
@@ -342,7 +342,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {FC12CECD-EAC4-8384-8A38-0BBE938E9B87}
       IID 9
       NAME "MT-PowerDrumKit untitled MIDI item"
@@ -403,10 +403,10 @@
         E 0 80 26 00
         E 0 90 3d 6e
         E 480 80 3d 00
-        E 0 90 3d 6e
         E 0 90 24 6e
-        E 480 80 3d 00
-        E 0 80 24 00
+        E 0 90 39 60
+        E 240 80 39 00
+        E 240 80 24 00
         E 0 90 3d 6e
         E 480 80 3d 00
         E 0 90 3d 6e
@@ -473,10 +473,10 @@
         E 0 80 24 00
         E 0 90 3d 6e
         E 480 80 3d 00
-        E 0 90 3d 6e
         E 0 90 26 6d
-        E 480 80 3d 00
-        E 0 80 26 00
+        E 0 90 39 6e
+        E 240 80 39 00
+        E 240 80 26 00
         E 0 90 3d 6e
         E 480 80 3d 00
         E 0 90 24 6d
@@ -517,10 +517,10 @@
         E 0 80 26 00
         E 240 90 3d 6d
         E 240 80 3d 00
-        E 240 90 3d 6d
-        E 0 90 24 6e
-        E 240 80 3d 00
-        E 0 80 24 00
+        E 240 90 24 6e
+        E 0 90 39 6e
+        E 240 80 24 00
+        E 0 80 39 00
         E 240 90 3d 6d
         E 240 80 3d 00
         E 0 90 24 6e
@@ -634,11 +634,11 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 0
         VELLANE -1 100 0
-        CFGEDITVIEW 0 0.079278 34 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW -55.727891 0.079278 34 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 2560 0 5120 1403 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 2522 381 5082 1784 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -681,7 +681,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
